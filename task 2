@@ -1,0 +1,38 @@
+1) input:                                                                        2) input:
+
+ list=[12,-7,5,64,-14]                                                              LIST=[12,14,-95,3]
+ for num in list:                                                                   for num in LIST:
+      if(num>0):                                                                          if(num>0):
+          print(num)                                                                          print(num)       
+                                                                                   
+                                                                     
+ output:                                                                            output:
+ 12                                                                                12
+ 64                                                                                14
+ 5                                                                                 3
+                                                                            
+ --------------------------------------------------------------------------------------------------
+3) input:
+
+n=int(input("how many numbers of this series do you want to print?:"))
+a=0
+b=1
+for i in range(0,n):
+    print(a)
+    c=a
+    a=b
+    b=c+b
+   
+output:
+enter how many numbers you want of this series: 10
+10
+0
+1
+1
+2
+3
+5
+8
+13
+21
+34
