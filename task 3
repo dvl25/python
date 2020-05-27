@@ -1,0 +1,30 @@
+INPUT: 
+
+a=int(input('enter your marks in Accounts:'))
+b=int(input('enter your marks in Math:'))
+c=int(input('enter your marks in Economics:'))
+d=int(input('enter your marks in law:'))
+
+x=(a+b+c+d)
+print(x)
+
+
+if (x>350):
+    print("Congratulations! You have passed with A grade.")
+elif (x>250):
+    print("Congratulations! You have passed with B grade.")
+elif (x>150):
+    print("You have passed with C grade.")
+else:
+    print("Alas! You have not passed.")
+    
+    
+    
+    OUTPUT:
+    
+enter your marks in Accounts:100
+enter your marks in Math:60
+enter your marks in Economics:40
+enter your marks in law:50
+total marks scored out of 400: 250
+You have passed with C grade.
